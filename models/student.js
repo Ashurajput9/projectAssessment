@@ -10,7 +10,7 @@ const StudentSchema = new mongoose.Schema({
         required:true
     },
     cgpa:{
-        type:Number,
+        type:String,
         required:true
  }
 })
